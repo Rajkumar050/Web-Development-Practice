@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+
+}
+h2{
+    text-align: left;
+    text-decoration:dotted green underline;
+}
+a{
+    text-decoration: none;
+}
+
+
+p{
+    font-weight: 400;
+    line-height: 1.5;
+}
+h2{
+    font-weight: normal;
+}

@@ -1,0 +1,18 @@
+h2{
+    border: 5px solid black;
+    width: 33.33%;
+
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(215, 18, 163);
+    margin: 50px;
+
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 10%;
+}

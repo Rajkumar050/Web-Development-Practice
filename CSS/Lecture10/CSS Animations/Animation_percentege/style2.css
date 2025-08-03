@@ -1,0 +1,31 @@
+
+.box {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: pink;
+    animation-name: colourAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes colourAnimation {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+        border-radius: 15px;
+    }
+    75% {
+        background-color: white;
+        border-radius: 25px;
+    }
+    100% {
+        background-color: brown;
+        border-radius: 40px;
+    }
+}

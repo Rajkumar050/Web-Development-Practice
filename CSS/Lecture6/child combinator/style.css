@@ -1,0 +1,44 @@
+*{
+    font-family: 'Lucida Sans';
+    color: rgb(142, 41, 140);
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup {
+    background-color:#b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: white;
+
+}
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a {
+    color: hotpink;
+}
+p+h3{
+    text-decoration: double underline;
+}
+.answer{
+    background-color:#c1121f ;
+    color:#fdf0d5 ;
+}
+div>input{
+    background-color: darkgray;
+}
+input[type="text"] {
+    background-color: #b92b27;
+    color: white;
+}
+input[type="password"] {
+    background-color: #c1121f;
+    color: white;
+}

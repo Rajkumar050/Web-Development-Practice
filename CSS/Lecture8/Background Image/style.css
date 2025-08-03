@@ -1,0 +1,10 @@
+div {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(10, 145, 10);
+    margin: 10px auto;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    color: azure;
+    text-align: center;
+}

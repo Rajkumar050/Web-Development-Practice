@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>files</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            Name:
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            sex:
+            <input type="radio"name="m"id="Male">
+            <label for="Male">Male</label>
+            <input type="radio"name="f"id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            Country:
+            <select name="con"id="Country">
+                <option>Select an option</option>
+                <option value="In">India</option>
+                <option value="Af">Afghanistan</option>
+                <option value="Al">Albania</option>
+                <option value="Alg">Algeria</option>
+                <option value="And">Andorra</option>
+                <option value="Aus">Australia</option>
+                <option value="Ban">Bangladesh</option>
+                <option value="Bel">Belize</option>
+                <option value="Bhu">Bhutan</option>
+                <option value="Cana">Canada</option>
+                <option value="Ch">China</option>
+                <option value="Ger">Germany</option>
+                <option value="Irn">Iran</option>
+                <option value="Ire">Ireland</option>
+                <option value="Jap">Japan</option>
+                <option value="Mal">Malaysia</option>
+                <option value="Nep">Nepal</option>
+                <option value="Russ">Russia</option>
+            </select>
+        </div>
+        <br>        
+        <label for="feedback">Message:</label><br>
+        <textarea id="feedback"></textarea>
+        <br>
+        <div>
+        <input type="checkbox"id="subs"name="sub">
+        <label for="subs">Subscribe?</label>
+        </div>
+        <br>
+        <button type="submit">submit</button>
+       
+    </form>
+    
+</body>
+</html>
